@@ -26,7 +26,7 @@ const getData = graphql`
 const FetchError = () => {
     // Normal Way
     //const data = useStaticQuery(getData);
-    console.log(useStaticQuery(getData))
+    //console.log(useStaticQuery(getData))
     // Destructed Data 
     const { 
         site:{

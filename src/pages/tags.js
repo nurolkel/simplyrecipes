@@ -10,7 +10,7 @@ const Tags = ({data}) => {
     
     const newTags = setupTags(data.allContentfulRecipe.nodes);
 
-    console.log(newTags);
+    //console.log(newTags);
     return ( 
         <Layout>
             <SEO title="Tags" />
