@@ -103,3 +103,17 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+***Graphql Tips***
+
+1. useStaticQuery on component files and page queries for page files only
+
+2. You can use query arguements, like filter and sort, on static queries
+
+3. Set up the Gatsby-Source-Filesystem to make files for images and then use graphql to generate the images through data. 
+
+***Page Template techniques***
+
+1. Use the File System API, name your file as {Data Nodes}.js  
+
+2. Use Pagination on the Gatsby.node file- follow the comments 
